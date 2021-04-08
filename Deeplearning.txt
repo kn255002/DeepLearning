@@ -1,0 +1,46 @@
+
+Supervisor learning:	Analyze pic then (object detection, Image segmentation, guess action,guess mood  etc.)
+						We provide input, Machine has rule and returns Output.
+						
+	Selfsupervised learning:	Herositic algorithm
+	
+UnSupervisor learning:	Cluster, Group
+Reinforcement learning: Reward based learning, agent, action,
+
+
+
+
+
+
+
+
+
+
+Vectorization:			Convert data into numbers/numpy/tensors
+Feature Engineering:	Part wise engin
+Universal workflow:		How to analyze data, then you design solution.
+
+
+Overfitting: 	You can't win, you can not finish Overfitting 100. However, you can reduce overfitting.
+
+
+Continuous:		Infinite values, value in fractions, we use Regression values. 
+Discrete:		Its numbers, finite, Amnesit vlaues are discrete.
+
+there are three type of data level:
+
+1:
+2:
+3:
+
+			
+Holdout cross validation means: Divide data in to 3-parts [training:(trainin and validation), test]
+'Training data' can be broken with 'K', for example K=4. Now you break data in to 4 pieces.
+
+Now you run loop on HCV:
+Accuracy(x1)= |val | Tr | Tr | Tr|
+Accuracy(x2)= |val | Tr | Tr | Tr|
+Accuracy(x3)= |val | Tr | Tr | Tr|
+Accuracy(x4)= |val | Tr | Tr | Tr|
+
+Avgerage(Accuracy(xi))
